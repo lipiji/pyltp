@@ -7,6 +7,7 @@ sys.path = [os.path.join(ROOTDIR, "lib")] + sys.path
 
 # Set your own model path
 MODELDIR=os.path.join(ROOTDIR, "./ltp_data")
+print(MODELDIR)
 
 from pyltp import SentenceSplitter, Segmentor, Postagger, Parser, NamedEntityRecognizer, SementicRoleLabeller
 
