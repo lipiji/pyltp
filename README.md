@@ -48,6 +48,7 @@ segmentor.release()
 
 	```
 	$ git clone https://github.com/HIT-SCIR/pyltp
+	$ cd pyltp
 	$ git submodule init
 	$ git submodule update
 	$ python setup.py install # Mac系统出现版本问题使用 MACOSX_DEPLOYMENT_TARGET=10.7 python setup.py install
